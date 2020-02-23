@@ -118,14 +118,13 @@
   color: #000000;
 }
 
-
 .Products-Wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   justify-content: space-between;
 }
 
