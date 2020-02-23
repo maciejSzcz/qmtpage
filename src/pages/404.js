@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 const NotFoundPage = () => (
   <Layout>
-    <p>Nie znaleziono strony :(</p>
+    <p>Nie znaleziono strony o podanym adresie. Proszę spróbować ponownie</p>
   </Layout>
 )
 
