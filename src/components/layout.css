@@ -1,0 +1,61 @@
+
+.Hero {
+  display: flex;
+  width: 90vw;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  transition: filter 50ms ease-in;
+  margin: 0 5vw;
+}
+
+.Hero-Image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.Hero-Text {
+  font-size: 3em;
+  color: white;
+  position: absolute;
+  align-self: center;
+  height: 80%;
+  margin-top: 300px;
+}
+
+.Offer-Wrapper {
+  width: 90vw;
+  margin: 2em 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.Offer-Image {
+  flex: 1;
+  background: linear-gradient(119deg, #FFFFFF, #F0F0F0);
+}
+
+.Offer-Text {
+  flex: 1;
+  padding: 2em;
+  background-color: #F0F0F0;
+  font-size: 1.2em;
+}
+
+.Offer-Button {
+  margin-top: 1em;
+  display: inline-block;
+  padding: 0.5em 1em;
+  width: 4em;
+  background-color: #718FF3;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.Offer-Link {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}

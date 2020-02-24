@@ -40,7 +40,7 @@ const Header = () => (
       <li>
         <Link 
           activeClass="active"
-          to="/about"
+          to="/kontakt"
         >
           <p className="Navigation-Button">
             Kontakt
