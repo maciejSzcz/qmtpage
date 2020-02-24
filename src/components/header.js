@@ -10,7 +10,7 @@ const Header = () => (
     <ul className="Navigation-Buttons">
       <li>
         <Link activeClass="active"
-          to="kasy"
+          to="/kasy"
         >
           <p className="Navigation-Button">
             Kasy fiskalne
@@ -20,7 +20,7 @@ const Header = () => (
       <li>
         <Link 
           activeClass="active"
-          to="systemy"
+          to="/systemy"
         >
           <p className="Navigation-Button">
             Systemy sprzedaży
@@ -30,7 +30,7 @@ const Header = () => (
       <li>
         <Link 
           activeClass="active"
-          to="lokalizacja"
+          to="/lokalizacja"
         >
           <p className="Navigation-Button">
             Lokalizacja
@@ -40,7 +40,7 @@ const Header = () => (
       <li>
         <Link 
           activeClass="active"
-          to="about"
+          to="/about"
         >
           <p className="Navigation-Button">
             Kontakt

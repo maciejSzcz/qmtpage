@@ -20,7 +20,7 @@ const IndexPage = () => (
         <p>It is necessary to point out that either systolic approach or best practice patterns has proved to be reliable in the scope of The Position of Effective Control" (Myles Handley in The Book of the Continuing Support) There is no doubt, that Johnnie Marks is the firs person who formulated that with the exception of the skills enforces the overall effect of the positive influence of any continuing support.</p>
         <Link 
           activeClass="active"
-          to="kasy"
+          to="/kasy"
           className="Offer-Button"
         >
           <p className="Offer-Link">Oferta</p>
@@ -34,7 +34,7 @@ const IndexPage = () => (
         <p>It is necessary to point out that either systolic approach or best practice patterns has proved to be reliable in the scope of The Position of Effective Control" (Myles Handley in The Book of the Continuing Support) There is no doubt, that Johnnie Marks is the firs person who formulated that with the exception of the skills enforces the overall effect of the positive influence of any continuing support.</p>
         <Link 
           activeClass="active"
-          to="systemy"
+          to="/systemy"
           className="Offer-Button"
         >
           <p className="Offer-Link">Oferta</p>
