@@ -6,7 +6,12 @@ import Logo from '../images/output-onlinepngtools.png'
 const Header = () => (
 
   <div className="Navigation">
-    <img className="Logo" src={Logo} alt="logo"/>
+    <Link activeClass="active"
+      to="/"
+    >
+      <img className="Logo" src={Logo} alt="logo"/>
+    </Link>
+
     <ul className="Navigation-Buttons">
       <li>
         <Link activeClass="active"
