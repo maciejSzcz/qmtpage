@@ -1,6 +1,6 @@
-import React from "react"
-import Layout from "../components/layout"
-import HeroPicture from "../images/ergo.jpg"
+import React from "react";
+import Layout from "../components/layout";
+import HeroPicture from "../images/ergo.jpg";
 
 const Kontakt = () => (
   <Layout>
@@ -11,6 +11,6 @@ const Kontakt = () => (
 
     <h1 className="Products-Name" name="kasy">Systemy sprzedaży</h1>
   </Layout>
-)
+);
 
-export default Kontakt
+export default Kontakt;

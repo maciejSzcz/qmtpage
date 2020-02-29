@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
-import React from "react"
-import "./header.css"
-import Logo from '../images/output-onlinepngtools.png'
+import { Link } from "gatsby";
+import React from "react";
+import "./header.css";
+import Logo from '../images/output-onlinepngtools.png';
 
 const Header = () => (
 
@@ -54,6 +54,6 @@ const Header = () => (
       </li>
     </ul>
   </div>
-)
+);
 
-export default Header
+export default Header;

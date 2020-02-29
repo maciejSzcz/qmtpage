@@ -1,6 +1,6 @@
-import React from "react"
-import Layout from "../components/layout"
-import HeroPicture from "../images/mapka.jpg"
+import React from "react";
+import Layout from "../components/layout";
+import HeroPicture from "../images/mapka.jpg";
 
 const Lokalizacja = () => (
   <Layout>
@@ -22,6 +22,6 @@ const Lokalizacja = () => (
         </iframe>
     </div>
   </Layout>
-)
+);
 
-export default Lokalizacja
+export default Lokalizacja;

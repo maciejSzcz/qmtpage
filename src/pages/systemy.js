@@ -1,7 +1,7 @@
-import React from "react"
-import Layout from "../components/layout"
-import Product from "../components/product"
-import HeroPicture from "../images/ergo.jpg"
+import React from "react";
+import Layout from "../components/layout";
+import Product from "../components/product";
+import HeroPicture from "../images/ergo.jpg";
 
 const Systemy = () => (
   <Layout>
@@ -39,6 +39,6 @@ const Systemy = () => (
       />
     </div>
   </Layout>
-)
+);
 
-export default Systemy
+export default Systemy;

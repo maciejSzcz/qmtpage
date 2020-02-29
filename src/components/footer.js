@@ -1,9 +1,9 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
+import './footer.css';
 
 const Footer = () => {
-    const now = new Date()
-    const currentYear = now.getFullYear()
+    const now = new Date();
+    const currentYear = now.getFullYear();
 
     return (
         <footer className="Footer">
@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Miasto: Wronki</p>
             <p>@QMT {currentYear}</p>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

@@ -1,6 +1,6 @@
-import React from "react"
-import {Link} from "gatsby"
-import "./product.css"
+import React from "react";
+import {Link} from "gatsby";
+import "./product.css";
 
 const Product = (props) => {
     return (
@@ -19,7 +19,7 @@ const Product = (props) => {
                 </Link>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Product
+export default Product;
