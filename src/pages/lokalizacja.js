@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import HeroPicture from "../images/mapka.jpg";
+import HeroPicture from "../images/mapka.png";
 
 const Lokalizacja = () => (
   <Layout>
