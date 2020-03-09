@@ -32,3 +32,10 @@
 .Product-Price {
   font-size: 1.4rem;
 }
+
+.Product-Link {
+  text-decoration: none;
+  color: #0067b8;
+  font-size: 0.938rem;
+  font-weight: 600;
+}

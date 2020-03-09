@@ -7,7 +7,7 @@ const ProductPage = (props) => {
         <div className="Product-Page">
             <img src={props.image} className="Product-Photo" alt="product" />
             <div className="Description-Wrapper">
-                <h3>{props.title}</h3>
+                <h3 className="Product-Title">{props.title}</h3>
                 <p className="Product-Description">{props.description}</p>
                 <div>
                     <p className="Product-Price">{props.price}</p>

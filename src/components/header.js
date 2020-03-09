@@ -14,7 +14,9 @@ const Header = () => (
 
     <ul className="Navigation-Buttons">
       <li>
-        <Link activeClass="active"
+        <Link 
+          activeClass="active"
+          className="Navigation-Link"
           to="/kasy"
         >
           <p className="Navigation-Button">
@@ -25,6 +27,7 @@ const Header = () => (
       <li>
         <Link 
           activeClass="active"
+          className="Navigation-Link"
           to="/systemy"
         >
           <p className="Navigation-Button">
@@ -35,6 +38,7 @@ const Header = () => (
       <li>
         <Link 
           activeClass="active"
+          className="Navigation-Link"
           to="/lokalizacja"
         >
           <p className="Navigation-Button">
@@ -45,6 +49,7 @@ const Header = () => (
       <li>
         <Link 
           activeClass="active"
+          className="Navigation-Link"
           to="/kontakt"
         >
           <p className="Navigation-Button">

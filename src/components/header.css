@@ -10,14 +10,12 @@
 }
 
 .Navigation {
-  /* position: fixed; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 90vw;
   height: 160px;
-  /* background-color: #000; */
   z-index: 1;
   margin: 0 5vw;
 }
@@ -36,7 +34,6 @@
   top: 1.3rem;
   font-size: 1.2rem;
   width: 50%;
-  /* color: #FFFFFF; */
 }
 
 .Navigation-Buttons > li > a {
@@ -47,10 +44,12 @@
   font-weight: bold;
   /* color: #fff; */
   color: #000;
+  border-bottom: 2px solid #fff;
 }
 
 .Navigation-Button:hover {
-  color: #ccc;
+  color: #666;
+  border-color: #666;
 }
 
 .active {
