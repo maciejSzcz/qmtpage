@@ -13,6 +13,14 @@ const IndexPage = () => (
       <img className="Hero-Image" src={HeroPicture} alt="cash register" />
       <h1 className="Hero-Text">Kasy Fiskalne</h1>
     </div>
+    <div className="About-Wrapper">
+      <h1>O nas</h1>
+      <p>Na rynku urządzeń fiskalnych działamy od 1995 roku.
+Oferujemy szeroką gamę kas i drukarek fiskalnych do obsługi wszystkich rodzajów placówek handlowych, usługowych i gastronomicznych.
+Instalujemy zarówno kasy fiskalne jak i kompletne systemy sprzedaży dla sklepów i hurtowni oraz lokali gastronomicznych.
+Zajmujemy się sprzedażą oraz serwisem kas fiskalnych, wag, czytników kodów kreskowych, kolektorów, terminali i metkownic.</p>
+
+    </div>
     <div className="Offer-Wrapper">
       <img className="Offer-Image Offer-1" src={SystemsPic} alt="img" />
       <div className="Offer-Text">
