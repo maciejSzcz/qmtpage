@@ -2,10 +2,11 @@ import { Link } from "gatsby";
 import React from "react";
 import "./header.css";
 import Logo from '../images/output-onlinepngtools.png';
+import * as S from './header.css.js';
 
 const Header = () => (
 
-  <div className="Navigation">
+  <S.Navigation>
     <Link activeClass="active"
       to="/"
     >
@@ -58,7 +59,7 @@ const Header = () => (
         </Link>
       </li>
     </ul>
-  </div>
+  </S.Navigation>
 );
 
 export default Header;

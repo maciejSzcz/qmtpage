@@ -6,6 +6,7 @@
   align-items: center;
   transition: filter 50ms ease-in;
   margin: 0 5vw;
+  position: relative;
 }
 
 .Hero-Image {
@@ -19,7 +20,7 @@
   color: white;
   position: absolute;
   align-self: center;
-  margin-top: 300px;
+  top: calc(50% - 0.5em);
 }
 
 .About-Wrapper {

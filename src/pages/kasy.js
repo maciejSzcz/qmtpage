@@ -22,8 +22,16 @@ const Kasy = () => (
       <Product 
         image={ErgoPic} 
         title="Posnet ERGO" 
-        description="Jedna z najbardziej popularnych kas fiskalnych na rynku Posnet ERGO teraz dostępna w wersji ONLINE. Urządzenie, dzięki modułowej konstrukcji, zapewnia użytkownikowi swobodę wyboru między przewodowym lub bezprzewodowym połączeniem z Centralnym Repozytorium Kas (CRK)." 
+        description="Zastanawiasz się, jak będzie rozwijał się Twój biznes? ERGO to kasa fiskalna, którą w dowolnym momencie możesz rozbudować. Jej modułowa konstrukcja pozwala na więcej, niż w tej chwili potrzebujesz. A dzięki swojej konstrukcji jest kasą wytrzymałą oraz posiada klawiaturę odporną na zachlapania." 
         price="1199zł"
+        path="/kasy/ergo"
+      />
+
+      <Product
+        image={ErgoPic}
+        title="Posnet ERGO Online"
+        description="Jedna z najbardziej popularnych kas fiskalnych na rynku Posnet ERGO teraz dostępna w wersji ONLINE. Urządzenie, dzięki modułowej konstrukcji, zapewnia użytkownikowi swobodę wyboru między przewodowym lub bezprzewodowym połączeniem z Centralnym Repozytorium Kas (CRK). Komunikacja może odbywać się po kablu ethernet, sieci bezprzewodowej Wi-Fi oraz sieci GPRS."
+        price="xxxxzł"
         path="/kasy/ergo"
       />
 
