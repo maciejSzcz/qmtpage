@@ -38,12 +38,24 @@
   width: 90vw;
   margin: 2em 5vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .Offer-Image {
   flex: 1;
-  background: linear-gradient(119deg, #FFFFFF, #F0F0F0);
+  background: linear-gradient(180deg, #FFFFFF, #F0F0F0);
+  object-fit: cover;
+  width: 100%;
+}
+
+@media  (min-width: 800px) {
+  .Offer-Wrapper {
+    flex-direction: row;
+  }
+
+  .Offer-Image {
+    background: linear-gradient(119deg, #FFFFFF, #F0F0F0);
+  }
 }
 
 .Offer-Text {
